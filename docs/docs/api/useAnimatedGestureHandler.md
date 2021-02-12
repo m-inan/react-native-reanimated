@@ -63,7 +63,7 @@ The handler should be passed under `onGestureEvent` parameter regardless of what
 
 ## Example
 
-In the below example we use [`PanGestureHandler`](https://docs.swmansion.com/react-native-gesture-handler/docs/handler-pan.html) to register for pan gesture events performed on the rendered View.
+In the below example we use [`PanGestureHandler`](https://docs.swmansion.com/react-native-gesture-handler/docs/api/gesture-handlers/pan-gh) to register for pan gesture events performed on the rendered View.
 We attach three handler worklets that are going to be triggered when the gesture starts, when it is active and the user is panning, and when the gesture is over.
 We create a shared value `x` that will correspond to the x-translation of the box.
 In `onStart` handler worklet we use `context` to save the current value of `x` and therefore remember the place at which the gesture started.
